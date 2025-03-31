@@ -2,14 +2,14 @@
 
 int main() {
   int n;
-  scanf("%d", &n); // Read the number of rows
+  printf("enter a number : ");
+  scanf("%d",&n);
+  for(int i=0;i<=n;i++){
+  for(int j-0;j<=n,i--){
+    printf("*");
 
-  for (int i = n; i >= 1; i--) { // Loop from n down to 1 (for each row)
-    for (int j = 1; j <= i; j++) { // Loop to print stars in each row
-      printf("*");
-    }
-    printf("\n"); // Move to the next line after printing a row
   }
-
-  return 0;
+  printf("\n");
+  }
+  
 }
