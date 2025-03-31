@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main (){
-    int rows,cols;
+    int n;
     scanf("%d",n);
-    for(int i=0; i<=rows;i++){
-        for (int j=0;j<=cols;J++){
+    for(int i=0; i<=n;i++){
+        for (int j=0;j<=n;J++){
             printf("*");
         }
         printf("\n");
