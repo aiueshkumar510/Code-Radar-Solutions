@@ -3,8 +3,8 @@ void reverse (int arr[],int n);
 void pointerArr(int arr[],int n);
 int main (){
     int a[]={1,2,3,4,5};
-    reverse(arr,5);
-    printArr(arr,5);
+    reverse(arr,4);
+    printArr(arr,4);
     return 0;
 }
 void printArr(int arr[],int n){
